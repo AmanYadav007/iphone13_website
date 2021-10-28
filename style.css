@@ -1,0 +1,199 @@
+*,
+*::before,
+*::after{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html{
+    font-size: 10px;
+    font-family: 'SF Pro Display', sans-serif;
+}
+
+a{
+    display:block;
+    text-decoration: none;
+    cursor: pointer;
+}
+
+.container{
+    max-width: 98rem;
+    margin: 0 auto;
+    padding: 0 2.2rem;
+}
+
+header{
+    position: fixed;
+    top: 0;
+    z-index: 1400;
+    width: 100%;
+    height: 4.4rem;
+    background-color:rgba(0, 0, 0, 0.800);
+    backdrop-filter: blur(2rem);
+}
+
+.nav-list{
+    list-style: none;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin: 0 -1rem;
+}
+
+.nav-list-mobile{
+    display: none;
+}
+
+.nav-link{
+    font-size: 1.2rem;
+    color: #c9c9c9;
+    padding: 0 1rem;
+    transition: opacity .5s;
+}
+
+.nav-link:hover{
+    color: rgb(240, 240, 240);
+    opacity: 1;
+}
+
+.nav-link-apple{
+    width: 1.6rem;
+    height: 4.4rem;
+    background: url("/assests/svg/globalnav_apple_image__b5er5ngrzxqq_large.svg") center no-repeat;
+}
+
+.nav-link-search{
+    width: 1.6rem;
+    height: 4.4rem;
+    background: url("/assests/svg/search.svg") center no-repeat;
+}
+
+.nav-link-bag{
+    width: 1.4rem;
+    height: 4.4rem;
+    background: url("/assests/svg/globalnav_bag_image__yzte50i47ciu_large.svg") center no-repeat;
+}
+
+.iphone-13-pro{
+    height: 64.2rem;
+    background: url("/assests/images/hero_iphone_13pro__dhnsegysa42u_large_2x.jpg");
+    margin-top: 3.5rem;
+}
+
+.hero{
+    background-size: auto 100%;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+.iphone-13-pro{
+    border-top: none;
+}
+
+.title{
+    color: rgb(0, 0, 0);
+    text-align: center;
+    padding-top: 11rem;
+}
+
+.title-heading{
+    font-size: 5.6rem;
+    line-height: 1.07143;
+    letter-spacing: -.09rem;
+}
+
+.title-sub-heading{
+    font-size: 2.65rem;
+    margin-top: .6rem;
+    letter-spacing: .008rem;
+    font-weight: 400;
+}
+
+.title-price{
+    font-size: 1.7rem;
+    color: #888;
+    margin-top: .68rem;
+}
+
+.cta{
+    text-align: center;
+    margin-top: 1.8rem;
+}
+.cta-link, span{
+
+    color: #06c;
+    font-size: 2.1rem;
+    display: inline-block;
+}
+.cta-link:nth-child(2){
+    margin-left: 2.6rem;
+}
+
+
+.cta-link:hover{
+    border-bottom: 2px solid #06c;
+}
+
+.iphone-13{
+    height: 70.2rem;
+    background: url("/assests/images/hero_iphone_13__f194u1rdooeq_large\ .jpg") center no-repeat;
+    margin-top: -4.6rem;
+    background-size: auto 60.4rem;
+}
+
+.title-heading-iphone13{
+    color: white;
+    font-size: 56px;
+    line-height: 1.07143;
+    font-weight: 600;
+    letter-spacing: -.005rem;
+    font-family: 'SF Pro Display', sans-serif;
+}
+
+.title-sub-heading-iphone13{
+    color: #fec2eb;
+    font-size: 28px;
+    line-height: 1.10722;
+    font-weight: 400;
+    letter-spacing:.004rem;
+    margin-top: 6px;
+}
+
+.macbook-pro{
+    height: 70.2rem;
+    background: url("/assests/images//hero_macbookpro__eatonjfwvuc2_large_2x.jpg") center no-repeat ;
+    margin-top: -4.6rem;
+    background-size: auto 60.4rem;
+}
+
+.title-heading-macbook{
+    font-size: 56px;
+    line-height:1.02143;
+    font-weight: 600;
+    letter-spacing: -.004em;
+    margin-top: -40px;
+    font-family: 'SF Pro Display', sans-serif;
+}
+
+.title-sub-heading-macbook{
+    font-size: 28px;
+    line-height: 1.10722;
+    font-weight: 400;
+    letter-spacing: .004em;
+    font-family: "SF Pro Display","SF Pro Icons","Helvetica Neue","Helvetica","Arial",sans-serif;
+    margin-top: 6px;
+}
+.title-price{
+    color: #86868b;
+    margin-top: 13px;
+    font-size: 20px;
+    line-height: 1.23536;
+    font-weight: 400;
+    letter-spacing: -.022em;
+}
+
+
+
+
+
+
