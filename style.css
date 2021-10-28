@@ -75,17 +75,15 @@ header{
     background: url("/assests/svg/globalnav_bag_image__yzte50i47ciu_large.svg") center no-repeat;
 }
 
+
+/* iphone13 pro section */
+
 .iphone-13-pro{
     height: 64.2rem;
     background: url("/assests/images/hero_iphone_13pro__dhnsegysa42u_large_2x.jpg");
     margin-top: 3.5rem;
 }
 
-.hero{
-    background-size: auto 100%;
-    background-position: center;
-    background-repeat: no-repeat;
-}
 .iphone-13-pro{
     border-top: none;
 }
@@ -120,7 +118,6 @@ header{
     margin-top: 1.8rem;
 }
 .cta-link, span{
-
     color: #06c;
     font-size: 2.1rem;
     display: inline-block;
@@ -134,10 +131,11 @@ header{
     border-bottom: 2px solid #06c;
 }
 
+/* iphone-13 section */
 .iphone-13{
     height: 70.2rem;
-    background: url("/assests/images/hero_iphone_13__f194u1rdooeq_large\ .jpg") center no-repeat;
-    margin-top: -4.6rem;
+    background: url("/assests/images/hero_iphone_13__f194u1rdooeq_large.jpg") center no-repeat;
+    margin-top: 1rem;
     background-size: auto 60.4rem;
 }
 
@@ -159,6 +157,9 @@ header{
     margin-top: 6px;
 }
 
+
+
+/* macbook pro section */
 .macbook-pro{
     height: 70.2rem;
     background: url("/assests/images//hero_macbookpro__eatonjfwvuc2_large_2x.jpg") center no-repeat ;
@@ -192,8 +193,111 @@ header{
     letter-spacing: -.022em;
 }
 
+.hero{
+    background-size: auto 100%;
+    background-position: center;
+    background-repeat: no-repeat;
+}
 
 
 
+@media screen and (max-width: 1068px) {
+        .iphone-13-pro{
+            background: url("/assests/images/hero_iphone_13pro__dhnsegysa42u_large.jpg") center no-repeat;
+        }
+        .iphone-13{
+            margin-top: 1rem;
+            height: 60rem;
+            background: url("/assests/images/hero_iphone_13__f194u1rdooeq_medium.jpg")center no-repeat;
+            
+        }
+        .macbook-pro{
+            background: url("/assests/images/hero_macbookpro__eatonjfwvuc2_large.jpg") center  no-repeat;
+        }
+        .title{
+            color: rgb(0, 0, 0);
+            text-align: center;
+            padding-top: 7rem;
+        }
+        .title-dark{
+            text-align: center;
+            padding-top: 14rem;
+        }
 
+}
+@media screen and (max-width: 886px){
+        .macbook-pro{
+            background: url("/assests/images/hero_macbookpro__eatonjfwvuc2_medium.jpg") center no-repeat;
+            height: 60rem;
+            background-size: auto 50.4rem;
+        }
+        .title-dark{
+            padding-top: 13rem;
+        }
+        .title-heading-macbook{
+            font-size: 40px;
+        }
+        .title-sub-heading-macbook{
+            font-size: 30px;
+        }
+        .title-price{
+            font-size: 20px;
+        }
+        .cta-link, span{
+            margin-top: -.2rem;
+            font-size: 20px;
+        }
+        
+}
+@media screen and (max-width: 732px) {
+    .iphone-13-pro{
+        background: url("/assests/images/hero_iphone_13pro__dhnsegysa42u_small.jpg") center no-repeat;
+    }
+    .iphone-13{
+        margin-top: -6rem;
+        height: 60rem;
+        background: url("/assests/images/hero_iphone_13__f194u1rdooeq_small.jpg") center no-repeat;
+    }
+    .macbook-pro{
+        background: url("/assests/images/hero_macbookpro__eatonjfwvuc2_small.jpg") center no-repeat;
+    }
+    .title-iphone-13{
+        padding-top: 270px;
+    }
+    .title-heading-iphone13{
+        font-size: 30px;
+    }
+    .title-sub-heading-iphone13{
+        font-size: 20px;
+    }
+    .title-heading{
+        font-size: 36px;
+        line-height: 1.25;
+        font-weight: 600;
+        letter-spacing: .004em;
+    }
+    
+    .title-sub-heading{
+        font-size: 21px;
+        margin-top: .6rem;
+        letter-spacing: .012em;
+        font-weight: 400;
+    }
+    
+    .title-price{
+        font-size: 17px;
+        font-weight: 400;
+        color: #888;
+        margin-top: .68rem;
+    }
+    .title-heading-macbook{
+        font-size: 40px;
+    }
+    .title-sub-heading-macbook{
+        font-size: 20px;
+    }
+    .title-price{
+        font-size: 15px;
+    }
 
+}
