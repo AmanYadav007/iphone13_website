@@ -6,6 +6,7 @@
     box-sizing: border-box;
 }
 
+
 html{
     font-size: 10px;
     font-family: 'SF Pro Display', sans-serif;
@@ -82,6 +83,7 @@ header{
     height: 64.2rem;
     background: url("/assests/images/hero_iphone_13pro__dhnsegysa42u_large_2x.jpg");
     margin-top: 3.5rem;
+    width: 100%;
 }
 
 .iphone-13-pro{
@@ -135,6 +137,7 @@ header{
 .iphone-13{
     height: 70.2rem;
     background: url("/assests/images/hero_iphone_13__f194u1rdooeq_large.jpg") center no-repeat;
+    width: 100%;
     margin-top: 1rem;
     background-size: auto 60.4rem;
 }
@@ -157,12 +160,11 @@ header{
     margin-top: 6px;
 }
 
-
-
 /* macbook pro section */
 .macbook-pro{
     height: 70.2rem;
     background: url("/assests/images/hero_macbookpro__eatonjfwvuc2_large.jpg") center no-repeat ;
+    width: 100%;
     margin-top: -4.6rem;
     background-size: auto 60.4rem;
 }
@@ -211,40 +213,44 @@ header{
     background: url("/assests/images/tile_airpods__fuv6vgn42y2q_large_2x.jpg") center no-repeat;
     margin-top: -2rem;
     margin-bottom: 3rem;
-    background-size: auto 58.4rem;
-    height: 65.2rem;
+    background-size: auto 50.4rem;
+    height: 62.2rem;
     width: 50%;
 }
 
-.title-airpod{
-       margin-top: 450px;
-       margin-right: 100px;
+.airpod-title-box{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin-top: 40rem;
 }
-.title-airpod p,.title-sub-heading-homepod{
-    color: #86868b;
-    text-align: center;
-    margin-top: 4px;
-    font-size: 14px;
-    line-height: 1.33337;
-    font-weight: 400;
-    letter-spacing: -.01em;
-    font-family: "SF Pro Text","SF Pro Icons","Helvetica Neue","Helvetica","Arial",sans-serif;
-}
-
-.title-heading-airpod, .title-heading-homepod{
+.airpod-main-title{
     font-size: 40px;
     line-height: 1.1;
-    font-weight: 700;
+    font-weight: 600;
     letter-spacing: 0em;
     font-family: "SF Pro Display",sans-serif;
+    margin-top: 53px;
 }
-.title-sub-heading-airpod{
-    font-size: 21px;
-    line-height: 1.2381;
+.airpod-sub-title{
+    font-size: 20px;
     font-weight: 400;
-    letter-spacing: .016em;
-    font-family: "SF Pro Display","SF Pro Icons","Helvetica Neue","Helvetica","Arial",sans-serif;
-    margin-top: 4px;
+    color: #000000d5;
+}
+.airpod-sub-title p{
+    font-size: 15px;
+}
+
+.heading-homepod-main{
+    font-size: 40px;
+    margin-top: 92px;
+    font-weight:500;
+}
+
+.heading-homepod-mini-sub-title{
+    font-size: 15px;
+    color: #000000d7;
+    margin-top: 10px;
 }
 
 .container-homepod{
@@ -262,106 +268,105 @@ header{
 .container-apple-watch{
     background: url("/assests/images/tile_lte_avail__eqbz3ui0dz8m_large_2x.jpg") center no-repeat;
     margin-top: -5rem;
-    background-size: auto 50.4rem;
-    height: 65.2rem;
+    background-size: auto 60.4rem;
+    height: 60.2rem;
     width: 50%;
 }
 
-.title-watch{
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
+
+.title-heading-watch{
+    background: url("/assests/images/tile_watch_logo_lte__h7snssb7mqq2_large_2x.png") center no-repeat;
+    margin-bottom: -60px;
+    background-size: auto 5rem;
+    height: 20rem;
 }
 .title-sub-heading-watch{
     font-size: 20px;
-    margin: -30px 0px 0px -70px;
+    color: #000000d7;
+    font-weight: 500;
+    margin-top: .4rem;
 }
 .watch-new{
-    color: #bf4800;
-    font-size: 12px;
-    margin: 10px 0px -17px -50px;
-}
-.title-heading-watch{
-    background: url("/assests/images/tile_watch_logo_lte__h7snssb7mqq2_large_2x.png") center no-repeat;
-    margin: -3rem 0px -12px 15rem;
-    background-size: auto 8rem;
-    height: 20rem;
-    width: 50%;
+    color: rgb(255, 108, 108);
+    font-size: 15px;
+    margin-bottom: -50px;
 }
 
-.cta-watch{
-    margin: 5px 0px 0px -50px;
-}
-.cta-link-darker{
-    font-size: 15px;
-}
+
+
 span{
     font-size: 15px;
 }
 .container-ipad{
     background: url("/assests/images/promo_ipad_mini__spq4zjcuuaie_large_2x.jpg") center no-repeat;
     margin-top: -5rem;
-    background-size: auto 50.4rem;
-    height: 65.2rem;
+    background-size: auto 57.4rem;
+    height: 56.2rem;
     width: 50%;
 }
 .title-heading-ipad{
-    background: url("/assests/images/promo_ipad_mini__spq4zjcuuaie_large_2x.jpg") center no-repeat;
-    margin: 10px;
+    background: url("/assests/images/promo_logo_ipad_mini__n5nqff6gq8yu_large_2x.png") center no-repeat;
+    background-size: auto 4rem;
+    height: 20rem;
 }
 
+.title-heading-ipad{
+    margin: -40px 0px -50px 0px;
+}
+.title-sub-heading-ipad{
+    font-size: 20px;
+    font-weight: 600;
+    color: #000000de;
+}
+
+.common-title{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
 
 @media screen and (max-width: 1068px) {
         .iphone-13-pro{
             background: url("/assests/images/hero_iphone_13pro__dhnsegysa42u_large.jpg") center no-repeat;
+            width: 100%;
         }
         .iphone-13{
             margin-top: 1rem;
             height: 60rem;
             background: url("/assests/images/hero_iphone_13__f194u1rdooeq_medium.jpg")center no-repeat;
+            width: 100%;
             
         }
         .macbook-pro{
             background: url("/assests/images/hero_macbookpro__eatonjfwvuc2_large.jpg") center  no-repeat;
+            width: 100%;
         }
         .container-airpod{
-            background: url("/assests/images/tile_airpods__fuv6vgn42y2q_small_2x.jpg")center no-repeat;
+            background: url("/assests/images/tile_airpods__fuv6vgn42y2q_large_2x.jpg")center no-repeat;
             margin-top: -5rem;
             background-size: auto 55.4rem;
             height: 58.2rem;
-            width: 50%;
             margin-bottom: 100px;
         }
-        .title-airpod{
-            margin-top: 270px;
-        }
-        .title-homepod-mini{
-            margin-top: -10px;
-        }
+        
         .container-homepod{
             background: url("/assests/images/tile_homepod_mini__b73w4z3ljymu_small_2x.jpg") center no-repeat;
-            margin-top: -5rem;
             background-size: auto 47.4rem;
             height: 60.2rem;
-            width: 50%;
+            
 
         }
         .cta-link{
             font-size:20px;
         }
-        .title-heading-airpod, .title-heading-homepod{
-                font-size: 25px;
-                line-height: 1.1;
-                font-weight: 700;
+        .container-apple-watch{
+            background: url("/assests/images/tile_lte_avail__eqbz3ui0dz8m_medium_2x.jpg") center no-repeat;
+            background-size: auto 55.5rem;
+            height: 60.2rem;
         }
-        .title{
-            color: rgb(0, 0, 0);
-            text-align: center;
-            padding-top: 7rem;
-        }
-        .title-dark{
-            text-align: center;
-            padding-top: 14rem;
+        .container-ipad{
+            background: url("/assests/images/promo_ipad_mini__spq4zjcuuaie_medium_2x.jpg") center no-repeat;
+            background-size: auto 47.5rem;
         }
 
 }
@@ -372,6 +377,7 @@ span{
             background: url("/assests/images/hero_macbookpro__eatonjfwvuc2_medium.jpg") center no-repeat;
             height: 60rem;
             background-size: auto 50.4rem;
+            width: 100%;
         }
         .title-dark{
             padding-top: 13rem;
@@ -385,10 +391,15 @@ span{
         .title-price{
             font-size: 20px;
         }
-        .cta-link, span{
-            margin-top: -.2rem;
-            font-size: 20px;
+        .container-apple-watch{
+            background: url("/assests/images/tile_lte_avail__eqbz3ui0dz8m_medium_2x.jpg") center no-repeat;
+            background-size: auto 49.5rem;
+            height: 60.2rem;
         }
+        .title-watch{
+            margin-top: 10px;
+        }
+
         
 }
 @media screen and (max-width: 732px) {
@@ -397,12 +408,10 @@ span{
         transition: background .36s cubic-bezier(0.32, 0.08,0.24,1);
             height: .36s cubic-bezier(0.32, 0.08,0.24,1);
     }
-    header .container{
-        padding: 0;
-    }
     .iphone-13-pro{
         margin-top: 4.8rem;
         background: url("/assests/images/hero_iphone_13pro__dhnsegysa42u_small.jpg") center no-repeat;
+        width: 100%;
     }
     .nav-list{
         margin-top: 0;
@@ -536,9 +545,11 @@ span{
         margin-top: -6rem;
         height: 60rem;
         background: url("/assests/images/hero_iphone_13__f194u1rdooeq_small.jpg") center no-repeat;
+        width: 100%;
     }
     .macbook-pro{
         background: url("/assests/images/hero_macbookpro__eatonjfwvuc2_small.jpg") center no-repeat;
+        width: 100%;
     }
     .title-iphone-13{
         padding-top: 270px;
@@ -582,7 +593,50 @@ span{
     .ipad-mini{
         background: url("/assests/images/promo_ipad_mini__spq4zjcuuaie_small_2x.jpg") center no-repeat;
         height: 60.2rem;
+        width: 100%;
         background-size: auto 60rem;
     }
+
+
+    .hero-container{
+        background-size: auto 100%;
+        background-position: center;
+        background-repeat: no-repeat;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    } 
+    .container-airpod{
+        background: url("/assests/images/tile_airpods__fuv6vgn42y2q_small_2x.jpg")center no-repeat;
+            background-size: auto 40.4rem;
+            height: 50rem;
+            width: 100%;
+    }
+    .airpod-title-box{
+        margin-top: 34rem;
+    }
+    
+    .container-homepod{
+        background: url(/assests/images/tile_homepod_mini__b73w4z3ljymu_small_2x.jpg) center no-repeat;
+        background-size: auto 44rem;
+        height: 58rem;
+        width: 100%;
+}
+
+.container-apple-watch{
+    background: url("/assests/images/tile_lte_avail__eqbz3ui0dz8m_large_2x.jpg") center no-repeat;
+    background-size: auto 44rem;
+    height: 58rem;
+    width: 100%;
+}
+
+
+.container-ipad{
+    background: url("/assests/images/promo_ipad_mini__spq4zjcuuaie_small_2x.jpg") center no-repeat;
+    background-size: auto 54rem;
+    height: 60rem;
+    width: 100%;
+}
+
 }
 
